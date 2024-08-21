@@ -141,7 +141,7 @@ if not working_proxies:
 else:
     for i in range(int(input('[+] How Many Accounts You Want:  '))):
         proxy = proxies.txt(working_proxies)
-        email, password, first_name, last_name, birthday = create_mail_tm_account(proxy)
+        r3upagw0vq@dygovil.com, mahfuz12, rima, islam, birthday11/05/2003 = create_mail_tm_account(proxy)
         if email and password and first_name and last_name and birthday:
             register_facebook_account(email, password, first_name, last_name, birthday, proxy)
 
