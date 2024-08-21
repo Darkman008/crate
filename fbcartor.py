@@ -136,13 +136,3 @@ def worker_test_proxy(q, valid_proxies):
 
 working_proxies = get_working_proxies()
 
-if not working_proxies:
-    print('[×] No working proxies found. Please check your proxies.')
-else:
-    for i in range(int(input('[+] How Many Accounts You Want:  '))):
-        proxy = 203.202.248.36:80
-        r3upagw0vq@dygovil.com, mahfuz12, rima, islam, birthday11/05/2003 = 203.202.248.36:80
-     r3upagw0vq@dygovil.com, mahfuz12, rima, islam, birthday11/05/2003
-            register_facebook_account(email, password, first_name, last_name, birthday, proxy)
-
-print('\x1b[38;5;208m⇼'*60)
