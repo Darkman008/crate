@@ -138,11 +138,5 @@ working_proxies = get_working_proxies()
 
 if not working_proxies:
     print('[×] No working proxies found. Please check your proxies.')
-else:
-    for i in range(int(input('[+] How Many Accounts You Want:  '))):
-        proxy = random.choice(working_proxies)
-        email, password, first_name, last_name, birthday = create_mail_tm_account(proxy)
-        if email and password and first_name and last_name and birthday:
-            register_facebook_account(email, password, first_name, last_name, birthday, proxy)
 
 print('\x1b[38;5;208m⇼'*60)
